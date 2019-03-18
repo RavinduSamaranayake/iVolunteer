@@ -13,8 +13,8 @@ import { Component, OnInit } from '@angular/core';
     'css/nice-select.css',
     'css/hexagons.min.css',
     'css/animate.min.css',
-    // 'css/owl.carousel.css',
-    // 'css/main.css'
+    'css/owl.carousel.css',
+    'css/main.css'
   ]
 })
 export class HomeComponent implements OnInit {

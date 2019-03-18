@@ -19,6 +19,6 @@ import { AboutComponent } from './about/about.component';
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [HomeComponent]
 })
 export class AppModule { }

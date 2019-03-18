@@ -6,6 +6,8 @@
 /* =================================== */
 /*  Basic Style 
 /* =================================== */
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700');
+
 ::-moz-selection {
   /* Code for Firefox */
   background-color: #fab700;
@@ -3178,7 +3180,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 ################
 */
 .blog-banner-area {
-  background: url(../img/elements/blog/blog-banner.jpg) center;
+  /* background: url(../img/elements/blog/blog-banner.jpg) center; */
   background-size: cover;
 }
 
