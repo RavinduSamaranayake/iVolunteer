@@ -1,4 +1,5 @@
     // -------   Mail Send ajax
+    import * as $ from 'jquery';
 
      $(document).ready(function() {
         var form = $('#myForm'); // contact form
