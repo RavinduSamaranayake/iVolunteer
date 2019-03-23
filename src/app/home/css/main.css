@@ -61,6 +61,12 @@ p{
   position: relative;
 }
 
+.logo{
+  height: 60px;
+  /* width:100px; */
+  padding: 5px 0 5px 0;
+}
+
 ol, ul {
   margin: 0;
   padding: 0;
@@ -136,6 +142,11 @@ h4, h5, h6 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   color: #222222;
+}
+
+header a{
+  font-family: "Poppins", sans-serif; 
+  font-size: 15px !important;
 }
 
 h1, .h1 {
@@ -1947,7 +1958,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main-menu {
-  padding-top: 20px;
+  /* padding-top: 20px; */
 }
 
 #header {
@@ -2262,6 +2273,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .primary-btn {
+  font-family: sans-serif;
   background-color: #fab700;
   line-height: 42px;
   padding-left: 30px;
@@ -2332,7 +2344,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area {
-  background: url(../img/header-bg.jpg) center;
+  background: url(https://www.bhgre.com/bhgrelife/wp-content/uploads/2018/06/shutterstock_605300333_2014x628-1764x700_c.jpg) center;
   background-size: cover;
 }
 
@@ -2344,7 +2356,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .banner-area .overlay {
   background: #000;
-  opacity: .5;
+  opacity: .8;
 }
 
 .banner-area .primary-btn {
@@ -2461,7 +2473,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .home-about-area {
-  background: #f9f9ff;
+  background: #e9e9e9;
 }
 
 .home-about-area .home-about-left h1 {
@@ -2618,12 +2630,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .faq-area {
-  background: url(../img/fact.jpg) center;
+  background: url(https://d3ayyz93zozlya.cloudfront.net/uploaded-images/articlemainimage/microvolunteering-making-a-difference-in-a-matter-of-minutes-588a3926ecd2b.jpeg) center;
   background-size: cover;
 }
 
 .faq-area .overlay-bg {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, .99);
 }
 
 .single-faq {
@@ -3186,7 +3198,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .blog-banner-area .overlay-bg {
-  background: rgba(0, 0, 0, 0.55);
+  background: rgba(0, 0, 0, 0.8);
 }
 
 .blog-banner-wrap {
